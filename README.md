@@ -1,6 +1,6 @@
 # Solution: Agent-Driven Contract Extraction
 
-**TL;DR:** LangGraph agent with LLM-driven decisioning, confidence fusion, tool-call autonomy, and dead-letter replay for contract field extraction.
+LangGraph agent with LLM-driven decisioning, confidence fusion, tool-call autonomy, and dead-letter replay for contract field extraction.
 
 ## What the brief asked for and where it lives
 
