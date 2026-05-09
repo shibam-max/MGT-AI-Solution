@@ -1,0 +1,95 @@
+{
+  "contract_type": {
+    "value": "Non-Disclosure Agreement",
+    "source_quote": "MUTUAL NON-DISCLOSURE AGREEMENT"
+  },
+  "parties": [
+    {
+      "name": "Acme Corp",
+      "role": "party",
+      "source_quote": "Acme Manufacturing Co."
+    },
+    {
+      "name": "Globex Inc",
+      "role": "party",
+      "source_quote": "PaperMind AI, Inc."
+    }
+  ],
+  "effective_date": {
+    "value": null,
+    "source_quote": "2026-01-20"
+  },
+  "governing_law": {
+    "value": null,
+    "source_quote": "the laws of the State of Texas"
+  },
+  "liability_cap_usd": {
+    "value": null,
+    "source_quote": ""
+  },
+  "term": {
+    "duration_months": {
+      "value": null,
+      "source_quote": "two (2) years"
+    },
+    "auto_renew": {
+      "value": null,
+      "source_quote": ""
+    },
+    "notice_period_days": {
+      "value": null,
+      "source_quote": ""
+    }
+  },
+  "self_overall_confidence": 0.55,
+  "review_reasons": [
+    "liability cap missing",
+    "ambiguous term"
+  ],
+  "document_id": "contract_03_non_disclosure_agreement",
+  "fields": [
+    {
+      "name": "contract_type",
+      "value": "Non-Disclosure Agreement",
+      "confidence": 0.55,
+      "evidence": "MUTUAL NON-DISCLOSURE AGREEMENT"
+    },
+    {
+      "name": "parties",
+      "value": [
+        {
+          "name": "Acme Corp",
+          "role": "party",
+          "source_quote": "Acme Manufacturing Co."
+        },
+        {
+          "name": "Globex Inc",
+          "role": "party",
+          "source_quote": "PaperMind AI, Inc."
+        }
+      ],
+      "confidence": 0.55,
+      "evidence": ""
+    },
+    {
+      "name": "effective_date",
+      "value": null,
+      "confidence": 0.55,
+      "evidence": "2026-01-20"
+    },
+    {
+      "name": "term",
+      "value": null,
+      "confidence": 0.55,
+      "evidence": ""
+    },
+    {
+      "name": "governing_law",
+      "value": null,
+      "confidence": 0.55,
+      "evidence": "the laws of the State of Texas"
+    }
+  ],
+  "overall_confidence": 0.55,
+  "needs_review": true
+}

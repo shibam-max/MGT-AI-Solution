@@ -1,0 +1,37 @@
+{
+  "document_id": "contract_01_master_services_agreement",
+  "fields": [
+    {
+      "name": "contract_type",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "name": "parties",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "name": "effective_date",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "name": "term",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    },
+    {
+      "name": "governing_law",
+      "value": null,
+      "confidence": 0.0,
+      "evidence": ""
+    }
+  ],
+  "overall_confidence": 0.0,
+  "needs_review": false
+}

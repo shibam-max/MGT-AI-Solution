@@ -1,0 +1,103 @@
+{
+  "trace_id": "trc_6e4cf23cb314",
+  "document_id": "contract_01_master_services_agreement",
+  "status": "completed",
+  "confidence": 0.968,
+  "decision": {
+    "branch": "complete",
+    "needs_review": false,
+    "sor_id": "sor_e840d448d5"
+  },
+  "log": [
+    {
+      "name": "ingest",
+      "status": "ok",
+      "ts": "2026-05-09T09:01:36Z",
+      "latency_ms": 0,
+      "summary": {
+        "document_id": "contract_01_master_services_agreement",
+        "len": 2239
+      }
+    },
+    {
+      "name": "llm_extract",
+      "status": "ok",
+      "ts": "2026-05-09T09:01:36Z",
+      "latency_ms": 1,
+      "summary": {
+        "fields": [
+          "contract_type",
+          "parties",
+          "effective_date",
+          "governing_law",
+          "liability_cap_usd",
+          "term",
+          "self_overall_confidence",
+          "review_reasons"
+        ]
+      }
+    },
+    {
+      "name": "evidence_check",
+      "status": "ok",
+      "ts": "2026-05-09T09:01:36Z",
+      "latency_ms": 0,
+      "summary": {
+        "evidence_verified": true,
+        "unverifiable_count": 0
+      }
+    },
+    {
+      "name": "validate",
+      "status": "ok",
+      "ts": "2026-05-09T09:01:36Z",
+      "latency_ms": 0,
+      "summary": {
+        "schema": "valid"
+      }
+    },
+    {
+      "name": "compute_confidence",
+      "status": "ok",
+      "ts": "2026-05-09T09:01:36Z",
+      "latency_ms": 0,
+      "summary": {
+        "det": 1.0,
+        "llm": 0.92,
+        "fused": 0.968,
+        "injection_penalty": 0.0,
+        "injection_reasons": []
+      }
+    },
+    {
+      "name": "route",
+      "status": "ok",
+      "ts": "2026-05-09T09:01:36Z",
+      "latency_ms": 0,
+      "summary": {
+        "branch": "complete"
+      }
+    },
+    {
+      "name": "call_sor",
+      "status": "ok",
+      "ts": "2026-05-09T09:01:36Z",
+      "latency_ms": 2809,
+      "summary": {
+        "sor_id": "sor_e840d448d5"
+      }
+    },
+    {
+      "name": "persist",
+      "status": "ok",
+      "ts": "2026-05-09T09:01:39Z",
+      "latency_ms": 1,
+      "summary": {
+        "status": "completed",
+        "persist_warn": "'scenario' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draf"
+      }
+    }
+  ],
+  "started_at": "2026-05-09T09:01:36Z",
+  "finished_at": "2026-05-09T09:01:39Z"
+}

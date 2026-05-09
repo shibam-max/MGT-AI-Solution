@@ -1,0 +1,92 @@
+{
+  "trace_id": "trc_d36cc1078cb7",
+  "document_id": "contract_01_master_services_agreement",
+  "status": "failed",
+  "confidence": 0.0,
+  "decision": {
+    "branch": "dead_letter",
+    "needs_review": false,
+    "sor_id": null
+  },
+  "log": [
+    {
+      "name": "ingest",
+      "status": "ok",
+      "ts": "2026-05-09T08:30:13Z",
+      "latency_ms": 0,
+      "summary": {
+        "document_id": "contract_01_master_services_agreement",
+        "len": 2239
+      }
+    },
+    {
+      "name": "llm_extract",
+      "status": "fail",
+      "ts": "2026-05-09T08:30:13Z",
+      "latency_ms": 18203,
+      "reason": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+    },
+    {
+      "name": "evidence_check",
+      "status": "ok",
+      "ts": "2026-05-09T08:30:31Z",
+      "latency_ms": 0,
+      "summary": {
+        "evidence_verified": true,
+        "unverifiable_count": 0
+      }
+    },
+    {
+      "name": "validate",
+      "status": "ok",
+      "ts": "2026-05-09T08:30:31Z",
+      "latency_ms": 1,
+      "summary": {
+        "schema": "valid"
+      }
+    },
+    {
+      "name": "compute_confidence",
+      "status": "ok",
+      "ts": "2026-05-09T08:30:31Z",
+      "latency_ms": 0,
+      "summary": {
+        "det": 0.25,
+        "llm": 0.0,
+        "fused": 0.0,
+        "injection_penalty": 0.0,
+        "injection_reasons": []
+      }
+    },
+    {
+      "name": "route",
+      "status": "ok",
+      "ts": "2026-05-09T08:30:31Z",
+      "latency_ms": 0,
+      "summary": {
+        "branch": "dead_letter"
+      }
+    },
+    {
+      "name": "dead_letter",
+      "status": "ok",
+      "ts": "2026-05-09T08:30:31Z",
+      "latency_ms": 20,
+      "summary": {
+        "reason": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    },
+    {
+      "name": "persist",
+      "status": "ok",
+      "ts": "2026-05-09T08:30:31Z",
+      "latency_ms": 6,
+      "summary": {
+        "status": "failed",
+        "persist_warn": "'scenario' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draf"
+      }
+    }
+  ],
+  "started_at": "2026-05-09T08:30:13Z",
+  "finished_at": "2026-05-09T08:30:31Z"
+}

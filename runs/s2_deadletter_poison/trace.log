@@ -1,0 +1,9 @@
+{"name": "ingest", "status": "ok", "ts": "2026-05-09T09:01:39Z", "latency_ms": 0, "summary": {"document_id": "msa_poison", "len": 2239}}
+{"name": "llm_extract", "status": "ok", "ts": "2026-05-09T09:01:39Z", "latency_ms": 0, "summary": {"fields": ["contract_type", "parties", "effective_date", "governing_law", "liability_cap_usd", "term", "self_overall_confidence", "review_reasons"]}}
+{"name": "evidence_check", "status": "ok", "ts": "2026-05-09T09:01:39Z", "latency_ms": 0, "summary": {"evidence_verified": true, "unverifiable_count": 0}}
+{"name": "validate", "status": "ok", "ts": "2026-05-09T09:01:39Z", "latency_ms": 0, "summary": {"schema": "valid"}}
+{"name": "compute_confidence", "status": "ok", "ts": "2026-05-09T09:01:39Z", "latency_ms": 0, "summary": {"det": 1.0, "llm": 0.92, "fused": 0.968, "injection_penalty": 0.0, "injection_reasons": []}}
+{"name": "route", "status": "ok", "ts": "2026-05-09T09:01:39Z", "latency_ms": 0, "summary": {"branch": "complete"}}
+{"name": "call_sor", "status": "fail", "ts": "2026-05-09T09:01:39Z", "latency_ms": 8029, "reason": "sor_error: server 500"}
+{"name": "dead_letter", "status": "ok", "ts": "2026-05-09T09:01:47Z", "latency_ms": 22, "summary": {"reason": "sor_error: server 500"}}
+{"name": "persist", "status": "ok", "ts": "2026-05-09T09:01:47Z", "latency_ms": 4, "summary": {"status": "failed", "persist_warn": "'scenario' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draf"}}

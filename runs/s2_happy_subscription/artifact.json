@@ -1,0 +1,82 @@
+{
+  "contract_type": {
+    "value": "Subscription Agreement",
+    "source_quote": "This Papermind AI subscription agreement governs access to the service."
+  },
+  "parties": [
+    {
+      "name": "Papermind AI",
+      "role": "vendor",
+      "source_quote": "Papermind AI provides the subscription service."
+    }
+  ],
+  "effective_date": {
+    "value": "2025-03-01",
+    "source_quote": "The subscription is effective March 1, 2025."
+  },
+  "governing_law": {
+    "value": "California",
+    "source_quote": "This subscription is governed by California law."
+  },
+  "liability_cap_usd": {
+    "value": 500000,
+    "source_quote": "Liability shall not exceed USD 500,000."
+  },
+  "term": {
+    "duration_months": {
+      "value": 12,
+      "source_quote": "The subscription term is twelve months."
+    },
+    "auto_renew": {
+      "value": true,
+      "source_quote": "The subscription renews automatically."
+    },
+    "notice_period_days": {
+      "value": 30,
+      "source_quote": "Non-renewal requires thirty days notice."
+    }
+  },
+  "self_overall_confidence": 0.95,
+  "review_reasons": [],
+  "document_id": "contract_02_software_subscription_agreement",
+  "fields": [
+    {
+      "name": "contract_type",
+      "value": "Subscription Agreement",
+      "confidence": 0.95,
+      "evidence": "This Papermind AI subscription agreement governs access to the service."
+    },
+    {
+      "name": "parties",
+      "value": [
+        {
+          "name": "Papermind AI",
+          "role": "vendor",
+          "source_quote": "Papermind AI provides the subscription service."
+        }
+      ],
+      "confidence": 0.95,
+      "evidence": ""
+    },
+    {
+      "name": "effective_date",
+      "value": "2025-03-01",
+      "confidence": 0.95,
+      "evidence": "The subscription is effective March 1, 2025."
+    },
+    {
+      "name": "term",
+      "value": null,
+      "confidence": 0.95,
+      "evidence": ""
+    },
+    {
+      "name": "governing_law",
+      "value": "California",
+      "confidence": 0.95,
+      "evidence": "This subscription is governed by California law."
+    }
+  ],
+  "overall_confidence": 0.95,
+  "needs_review": false
+}

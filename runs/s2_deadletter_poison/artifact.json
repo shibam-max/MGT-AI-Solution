@@ -1,0 +1,92 @@
+{
+  "contract_type": {
+    "value": "Master Services Agreement",
+    "source_quote": "This Master Services Agreement"
+  },
+  "parties": [
+    {
+      "name": "Northwind Traders",
+      "role": "vendor",
+      "source_quote": "Northwind Analytics LLC"
+    },
+    {
+      "name": "Contoso Ltd",
+      "role": "customer",
+      "source_quote": "Contoso Retail Inc."
+    }
+  ],
+  "effective_date": {
+    "value": "2025-01-15",
+    "source_quote": "2026-02-15"
+  },
+  "governing_law": {
+    "value": "Delaware",
+    "source_quote": "the laws of the State of California"
+  },
+  "liability_cap_usd": {
+    "value": 1000000,
+    "source_quote": "aggregate liability under this Agreement will not exceed the fees paid by Client"
+  },
+  "term": {
+    "duration_months": {
+      "value": 24,
+      "source_quote": "continues for twelve (12) months"
+    },
+    "auto_renew": {
+      "value": true,
+      "source_quote": "will automatically renew for successive one (1) year terms"
+    },
+    "notice_period_days": {
+      "value": 60,
+      "source_quote": "at least thirty (30) days prior to the end of the then-current term"
+    }
+  },
+  "self_overall_confidence": 0.92,
+  "review_reasons": [],
+  "document_id": "msa_poison",
+  "fields": [
+    {
+      "name": "contract_type",
+      "value": "Master Services Agreement",
+      "confidence": 0.92,
+      "evidence": "This Master Services Agreement"
+    },
+    {
+      "name": "parties",
+      "value": [
+        {
+          "name": "Northwind Traders",
+          "role": "vendor",
+          "source_quote": "Northwind Analytics LLC"
+        },
+        {
+          "name": "Contoso Ltd",
+          "role": "customer",
+          "source_quote": "Contoso Retail Inc."
+        }
+      ],
+      "confidence": 0.92,
+      "evidence": ""
+    },
+    {
+      "name": "effective_date",
+      "value": "2025-01-15",
+      "confidence": 0.92,
+      "evidence": "2026-02-15"
+    },
+    {
+      "name": "term",
+      "value": null,
+      "confidence": 0.92,
+      "evidence": ""
+    },
+    {
+      "name": "governing_law",
+      "value": "Delaware",
+      "confidence": 0.92,
+      "evidence": "the laws of the State of California"
+    }
+  ],
+  "overall_confidence": 0.92,
+  "needs_review": false
+}

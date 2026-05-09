@@ -1,0 +1,50 @@
+[
+  {
+    "name": "s2_happy_msa",
+    "trace_id": "trc_6e4cf23cb314",
+    "scenario": "scenario_2_contract",
+    "status": "completed",
+    "confidence": 0.968,
+    "decision": {
+      "branch": "complete",
+      "needs_review": false,
+      "sor_id": "sor_e840d448d5"
+    }
+  },
+  {
+    "name": "s2_happy_subscription",
+    "trace_id": "trc_5d008e19bd0b",
+    "scenario": "scenario_2_contract",
+    "status": "needs_review",
+    "confidence": 0.48,
+    "decision": {
+      "branch": "needs_review",
+      "needs_review": true,
+      "sor_id": null
+    }
+  },
+  {
+    "name": "s2_needsreview_nda",
+    "trace_id": "trc_e7170393cfa6",
+    "scenario": "scenario_2_contract",
+    "status": "needs_review",
+    "confidence": 0.82,
+    "decision": {
+      "branch": "needs_review",
+      "needs_review": true,
+      "sor_id": null
+    }
+  },
+  {
+    "name": "s2_deadletter_poison",
+    "trace_id": "trc_c854633d5031",
+    "scenario": "scenario_2_contract",
+    "status": "failed",
+    "confidence": 0.968,
+    "decision": {
+      "branch": "dead_letter",
+      "needs_review": false,
+      "sor_id": null
+    }
+  }
+]
